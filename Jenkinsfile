@@ -11,7 +11,6 @@ pipeline {
         }
 
         // Test stage: run unit tests, integration tests, etc.
-        // simple edit
         stage('Test') {
             steps {
                 sh 'mkdir -p ~/testing'
