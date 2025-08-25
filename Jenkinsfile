@@ -13,7 +13,7 @@ pipeline {
         // Test stage: run unit tests, integration tests, etc.
         stage('Test') {
             steps {
-                echo 'mkdir -p ~/testing'
+                mkdir -p ~/testing
             }
         }
 
